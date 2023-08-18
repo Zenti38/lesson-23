@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,footer{
+        display: flex;
+        background-color: chartreuse;
+        justify-content: center;
+        gap: 70px;
+        align-items: center;
+        }
+
+        ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .nav{
+        display: flex;
+        gap: 50px;
+    }
+    body{
+        margin: 0;
+    }
+    form{
+        border-radius: 12px;
+        margin-top: 100px;
+        margin-bottom: 300px;
+        margin-left: 500px;
+        width: 450px;
+        background-color: #ff0000;
+        padding: 30px;
+    }
+    input,textarea{
+        display: block;
+        width: 340px;
+        margin-left: 50px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 30px;
+    }
+    textarea{
+        height: 100px;
+        resize: none;
+    }
+    button{
+        margin-top: 30px;
+        margin-left: 150px;
+        width: 150px;
+        height: 30px;
+        bottom: none;
+        cursor: pointer;
+        background-color:rgb(255, 149, 0) ;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        transition: 2s;
+    }
+    button:hover{
+        border-radius: 12px;
+        color: white;
+    }
+    h2{
+        color: aqua;
+        font-size: 22px;
+        margin-left: 170px;
+    }
+    input{
+        height: 30px;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">WebsiteLogo</a>
+        <nav>
+            <ul class="nav">
+                <li><a target="_blank" href="./reviews.html">reviews</a></li>
+                <li><a href="./contact.html">contacts</a></li>
+                <li><a href="./about.html">about</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="tel">+48730695513</a></li>
+            <li><a target="_blank" href="https://t.me/ArtemHla">telegram</a></li>
+        </ul>
+       </header> 
+       
+       <form action="">
+       <h2>Написати</h2>
+       <input placeholder="Ім'я" type="text">
+       <input placeholder="Телефон" type="text">
+       <textarea placeholder="Повідомлення"></textarea>
+       <button>Написати</button>
+       </form>
+
+       <footer>
+        <a href="">WebsiteLogo</a>
+        <nav>
+            <ul class="nav">
+                <li><a href="./reviews.html">reviews</a></li>
+                <li><a href="./contact.html">contacts</a></li>
+                <li><a href="./about.html">about</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="tel">+48730695513</a></li>
+            <li><a target="_blank" href="https://t.me/ArtemHla">telegram</a></li>
+        </ul>
+       </footer> 
+</body>
+</html>
